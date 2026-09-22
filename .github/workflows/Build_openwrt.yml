@@ -21,12 +21,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        repository: glenvega231/openwrt-25.12.0
-        ref: v25.12.0          # 直接检出 25.12.0 标签
-        path: openwrt          # 放到 openwrt 目录
-        fetch-depth: 0
+      uses: actions/checkout@master
 
     - name: Initialization environment
       env:
