@@ -114,7 +114,7 @@ jobs:
         REF_NAME: ${{ github.ref_name }}
         ACTOR: ${{ github.actor }}
       run: |
-        echo "🎉 OpenWrt 24.10 固件编译成功！"
+        echo "🎉 OpenWrt 25.12 固件编译成功！"
         echo "仓库: $REPO"
         echo "分支: $REF_NAME"
         echo "触发人: $ACTOR"
