@@ -57,7 +57,7 @@ jobs:
         REPO_URL: https://github.com/glenvega231/openwrt-25.12.0.git
         REPO_BRANCH: main
       run: |
-        git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
+        git clone $REPO_URL -b $REPO_BRANCH openwrt
         cd openwrt
        
     - name: Update & Install feeds
